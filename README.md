@@ -16,6 +16,27 @@ We are trying to figure out how annual Cyclistic members differ from casual ride
 2.	Why would casual riders buy an annual membership?<br/>
 3.	How can Cyclistic use digital media to influence casual riders to become members?<br/>
 
+**Prepare** <br/>
+
+For my analysis I will be using Cyclistics historical public data that can be found [here]((https://divvy-tripdata.s3.amazonaws.com/index.html). This is public qualitative, structured data, and has been made available under this Data License Agreement. For my analysis I will be looking at data from January 2022 to December 2022 to identify trends. I downloaded the 12csv files and uploaded them to a dataset in BigQuery.  <br/>
+
+This is internal, primary data from Cyclistic. The data is organized in thirteen columns: 
+1.	ride_id <br/>
+2.	rideable_type <br/>
+3.	started_at<br/>
+4.	ended_at<br/>
+5.	start_station_name<br/>
+6.	start_station_id<br/>
+7.	end_station_name<br/>
+8.	end_station_id<br/>
+9.	start_lat<br/>
+10.	start_long<br/>
+11.	end_lat<br/>
+12.	end_long<br/>
+13.	member_casual<br/>
+Every row corresponds with a unique ride which is identified by ‘ride_id’<br/>
+No biases or credibility issues were identified in this data. This data is publically made available from its primary source. Personal identifiable information (PII) such as the users name and credit card information is not made available in this data in order to protect the privacy and safety of the users. Upon exploration of the data, there is evidence of missing fields in some of the columns. This will be explored further in the processing of our data. 
+
 
 
  
