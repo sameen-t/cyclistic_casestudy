@@ -34,7 +34,8 @@ This is internal, primary data from Cyclistic. The data is organized in thirteen
 11.	end_lat<br/>
 12.	end_long<br/>
 13.	member_casual<br/>
-Every row corresponds with a unique ride which is identified by ‘ride_id’<br/>
+<br/>
+Every row corresponds with a unique ride which is identified by ‘ride_id.'
 No biases or credibility issues were identified in this data. This data is publically made available from its primary source. Personal identifiable information (PII) such as the users name and credit card information is not made available in this data in order to protect the privacy and safety of the users. Upon exploration of the data, there is evidence of missing fields in some of the columns. This will be explored further in the processing of our data. 
 
 
