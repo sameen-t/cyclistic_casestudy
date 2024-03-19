@@ -18,7 +18,7 @@ We are trying to figure out how annual Cyclistic members differ from casual ride
 
 **Prepare** <br/>
 
-For my analysis I will be using Cyclistics historical public data that can be found [here](https://divvy-tripdata.s3.amazonaws.com/index.html). This is public qualitative, structured data, and has been made available under this Data License Agreement. For my analysis I will be looking at data from January 2022 to December 2022 to identify trends. I downloaded the 12csv files and uploaded them to a dataset in BigQuery.  <br/>
+For my analysis I will be using Cyclistics historical public data that can be found [here](https://divvy-tripdata.s3.amazonaws.com/index.html). This is public qualitative, structured data, and has been made available under this [Data License Agreement](https://divvybikes.com/data-license-agreement). For my analysis I will be looking at data from January 2022 to December 2022 to identify trends. I downloaded the 12csv files and uploaded them to a dataset in BigQuery.  <br/>
 
 This is internal, primary data from Cyclistic. The data is organized in thirteen columns: 
 1.	ride_id <br/>
