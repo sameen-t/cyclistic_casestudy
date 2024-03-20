@@ -84,9 +84,9 @@ Next, we will examine ride trends over certain periods of time. This will includ
  ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/769d1018-7ec5-4ddb-a41d-bcda58f345c4)
 
 
-Next we will assess the differences in the bike route for casual and member riders to see how this will inform our marketing strategy. The maps below show us the most popular  start and stop stations for casual and member riders. The stations have been filtered to display only the top frequently used so that we can have a clean visualization on the map and avoid confusion.<br/>
+Next we will assess the differences in the bike route for casual and member riders to see how this will inform our marketing strategy. The maps below show us the most popular  start and stop stations for casual and member riders. The stations have been filtered to display only the top frequently used so that we can have a clean visualization on the map and avoid confusion.<br/><br/>
 ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/d1c756e2-a235-4ef6-8b28-deb49f60bb0c)<br/>
-Here we can see that Members are more likely to start their rides closer to areas that are somewhat removed from the CTA metro stations, but are within the central business district close to offices, restaurants, and residential units. Meanwhile, casual members to tend to start their trips primarily from key tourist points such  as Navy Pier, Millenium Park, and Michigan Avenue. <br/>
+Here we can see that Members are more likely to start their rides closer to areas that are somewhat removed from the CTA metro stations, but are within the central business district close to offices, restaurants, and residential units. Meanwhile, casual members to tend to start their trips primarily from key tourist points such  as Navy Pier, Millenium Park, and Michigan Avenue. <br/><br/>
 ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/5fed202f-5adb-4bfb-bee2-4aa216aa062b)<br/>
 Similar trends can be seen in the end station points for each rider group. Members seem to end their rides at the same station they started, while casual riders end their rides at key tourist attractions. <br/>
 
