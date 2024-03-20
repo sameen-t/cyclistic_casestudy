@@ -36,8 +36,25 @@ This is internal, primary data from Cyclistic. The data is organized in thirteen
 13.	member_casual<br/>
 <br/>
 Every row corresponds with a unique ride which is identified by ‘ride_id.'
-No biases or credibility issues were identified in this data. This data is publically made available from its primary source. Personal identifiable information (PII) such as the users name and credit card information is not made available in this data in order to protect the privacy and safety of the users. Upon exploration of the data, there is evidence of missing fields in some of the columns. This will be explored further in the processing of our data. 
+No biases or credibility issues were identified in this data. This data is publically made available from its primary source. Personal identifiable information (PII) such as the users name and credit card information is not made available in this data in order to protect the privacy and safety of the users. Upon exploration of the data, there is evidence of missing fields in some of the columns. This will be explored further in the processing of our data. <br/>
 
+
+**Process**<br/>
+I will be using Big Query to process and clean my data. I uploaded the monthly data to BigQuery under one dataset, and then combined the January to December 2022 data into one large table for exploration and analysis. I then took the following steps to explore and understand the data. <br/>
+
+1.	Familiarized myself with the 13 data columns and data types. <br/> 
+ 
+2.	Checked for distinct ‘ride_id’ and consistency in ‘ride_id’ characters to ensure each value was unique and without errors. There were  5 667 717 distinct values which is the same as the total number of rows in the 2022 data. All ‘ride_id’ values had 16 characters, indicating no discrepancy or errors in the field. <br/>
+3.	Verified that rideable type has only three distinct values in line with the type of bikes offered by Cyclistic. <br/>
+4.	Checked for null values. The fields ‘start_station_name’ and ‘start_station_id’ have 833 064 null values. The fields ‘end_station_name’ and ‘end_station_id’ have 892 742 null values. The fields ‘end_lat’ and ‘end_lng” have 5858 null values.  These values will have to be removed before we begin our analysis. <br/>
+5.	Checked ‘ride_length’ to ensure rides were within a 24 hour period. There are 227604 values where the ride length is less than a minute or greater than a day. These values will also have to be removed before our analysis. <br/>
+6.	Checked that there were only two values for ‘rider_type.’ We are returned wit two values ‘member’ and ‘casual’. This tells us there are no errors in this field as Cyclistic only offers these two type of rider membership. <br/>
+7.	Next was the cleaning process.  I ran the following query to create a new table with cleaned data.<br/> This involved:<br/>
+ a.	Created columns for month and day_of_the_week using EXTRACT function<br/>
+ b.	Created column for ride_length_in_minutes using TIMESTAMP_DIFF function<br/>
+ c.	Removed ride_lenght_in_minutes values were the ride was greater than 1 day or less than 1 minutes<br/>
+ d.	Removed null values from start_station_name, start_station_id, end_station_name, end_station_id, end_lat, and end_lat. <br/>
+We are left with 4 224 062 unique rides for our analysis. <br/>
 
 
  
