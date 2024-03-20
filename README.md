@@ -56,6 +56,20 @@ I will be using Big Query to process and clean my data. I uploaded the monthly d
  d.	Removed null values from start_station_name, start_station_id, end_station_name, end_station_id, end_lat, and end_lat. <br/>
 We are left with **4 224 062** unique rides for our analysis. <br/>
 
+**Analysis**
+For my analysis, I ran queries to determine the following differences between casual and member riders.<br/>
+1.	the type of bike most used by each group <br/>
+2.	the most popular month for each group <br/>
+3.	The hour of day each group is most likely to ride <br/>
+4.	The busiest day of the week for each group <br/>
+5.	The average start and end locations for each group <br/>
+The queries generated tables with the relevant data, this data was then visualized using Tableau Public. <br/>
+The visualizations below show a quick overview of our data and allow us to glean a few key points. Lets start with the number of rider types.<br/>
+![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/ab6ace68-0fcf-4859-9512-1d569df039ec)
+![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/f3052874-41a4-43ad-b76e-a758ecd516cd)
 
- 
+We can see that the majority of riders -59% were members, and approximately 41% were casual riders. Additionally, we can see that the majority of riders prefer a classic bike between both member and casual riders.<br/>
+![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/9b842253-7e5f-4955-82c9-29c1e6c6b3b5)
+
+
 
