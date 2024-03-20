@@ -1,4 +1,5 @@
 --combine 12 months of data into one large table 
+
 CREATE OR REPLACE TABLE cyclistic_data_2022.combined_v1 AS (
   SELECT*
   FROM `case-study-412103.cyclistic_data_2022.january_2022`
