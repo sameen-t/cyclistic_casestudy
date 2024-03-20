@@ -67,10 +67,10 @@ The queries generated tables with the relevant data, this data was then visualiz
 The visualizations below show a quick overview of our data and allow us to glean a few key points. Lets start with the number of rider types.<br/>
 ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/ab6ace68-0fcf-4859-9512-1d569df039ec)
 ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/f3052874-41a4-43ad-b76e-a758ecd516cd)
-
+<br/>
 We can see that the majority of riders -59% were members, and approximately 41% were casual riders. Additionally, we can see that the majority of riders prefer a classic bike between both member and casual riders.<br/>
 ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/9b842253-7e5f-4955-82c9-29c1e6c6b3b5)
-
+<br/>
 Next, we will examine ride trends over certain periods of time. This will include trends over months, days of the week, and time of day. The visualizations below show us a few key points:<br/>
 1.	The spring and summer months are the most popular time of the year for both members and casual riders<br/>
 2.	Throughout each month, there are more members riders than casual riders  <br/>
@@ -84,10 +84,10 @@ Next, we will examine ride trends over certain periods of time. This will includ
  ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/769d1018-7ec5-4ddb-a41d-bcda58f345c4)
 
 
-Next we will assess the differences in the bike route for casual and member riders to see how this will inform our marketing strategy. The maps below show us the most popular  start and stop stations for casual and member riders. The stations have been filtered to display only the top frequently used so that we can have a clean visualization on the map and avoid confusion.
-![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/d1c756e2-a235-4ef6-8b28-deb49f60bb0c)
+Next we will assess the differences in the bike route for casual and member riders to see how this will inform our marketing strategy. The maps below show us the most popular  start and stop stations for casual and member riders. The stations have been filtered to display only the top frequently used so that we can have a clean visualization on the map and avoid confusion.<br/>
+![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/d1c756e2-a235-4ef6-8b28-deb49f60bb0c)<br/>
 Here we can see that Members are more likely to start their rides closer to areas that are somewhat removed from the CTA metro stations, but are within the central business district close to offices, restaurants, and residential units. Meanwhile, casual members to tend to start their trips primarily from key tourist points such  as Navy Pier, Millenium Park, and Michigan Avenue. <br/>
-![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/5fed202f-5adb-4bfb-bee2-4aa216aa062b)
+![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/5fed202f-5adb-4bfb-bee2-4aa216aa062b)<br/>
 Similar trends can be seen in the end station points for each rider group. Members seem to end their rides at the same station they started, while casual riders end their rides at key tourist attractions. <br/>
 
 **Summary Points**
