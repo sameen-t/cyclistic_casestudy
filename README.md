@@ -69,7 +69,8 @@ The visualizations below show a quick overview of our data and allow us to glean
 ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/f3052874-41a4-43ad-b76e-a758ecd516cd)
 <br/>
 We can see that the majority of riders -59% were members, and approximately 41% were casual riders. Additionally, we can see that the majority of riders prefer a classic bike between both member and casual riders.
-![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/06e3d2e2-e60f-4e85-bf08-794943f16de1)
+![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/f9cb82d6-8745-41e6-a337-8984721e54f4)
+
 
 Next, we will examine ride trends over certain periods of time. This will include trends over months, days of the week, and time of day. The visualizations below show us a few key points:<br/>
 1.	The spring and summer months are the most popular time of the year for both members and casual riders<br/>
