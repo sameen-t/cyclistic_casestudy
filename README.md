@@ -69,7 +69,6 @@ The visualizations below show a quick overview of our data and allow us to glean
 ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/f3052874-41a4-43ad-b76e-a758ecd516cd)
 <br/>
 We can see that the majority of riders -59% were members, and approximately 41% were casual riders. Additionally, we can see that the majority of riders prefer a classic bike between both member and casual riders.
-![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/f9cb82d6-8745-41e6-a337-8984721e54f4)
 
 
 Next, we will examine ride trends over certain periods of time. This will include trends over months, days of the week, and time of day. The visualizations below show us a few key points:<br/>
@@ -99,7 +98,12 @@ Similar trends can be seen in the end station points for each rider group. Membe
 |Use bike more frequently during the weekdays particularly during Spring and Summer|Use bikes more frequently during the weekends particularly during Spring and Summer|
 |Start and end their journeys in commercial and residential areas of the city that are far removed from the train station|Start and end their journeys from key tourist attractions of the city|
 
-
+**Recommendation**
+1.	Offer discounts for electric bike with annual membership <br/> 
+2.	Offer discounts for bikes when used within typical work commute hours<br/> 
+3.	Time promotions for Spring and Summer months that would encourage casual members to see an annual membership as a more economical choice. <br/> 
+4.	Plan marketing campaigns around key tourist points where casual riders are most likely to start and end their journeys and will be easily accessible to ads. <br/> 
+5.	Highlight the benefits of an annual membership to easily and frequently commute between areas in the city that are not easily accessible via public transport. <br/> 
 
 
 
