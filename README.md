@@ -56,7 +56,7 @@ I will be using Big Query to process and clean my data. I uploaded the monthly d
  d.	Removed null values from start_station_name, start_station_id, end_station_name, end_station_id, end_lat, and end_lat. <br/>
 We are left with **4 224 062** unique rides for our analysis. <br/>
 
-**Analysis**
+**Analysis** <br/>
 For my analysis, I ran queries to determine the following differences between casual and member riders.<br/>
 1.	the type of bike most used by each group <br/>
 2.	the most popular month for each group <br/>
@@ -70,6 +70,39 @@ The visualizations below show a quick overview of our data and allow us to glean
 
 We can see that the majority of riders -59% were members, and approximately 41% were casual riders. Additionally, we can see that the majority of riders prefer a classic bike between both member and casual riders.<br/>
 ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/9b842253-7e5f-4955-82c9-29c1e6c6b3b5)
+
+Next, we will examine ride trends over certain periods of time. This will include trends over months, days of the week, and time of day. The visualizations below show us a few key points:<br/>
+1.	The spring and summer months are the most popular time of the year for both members and casual riders<br/>
+2.	Throughout each month, there are more members riders than casual riders  <br/>
+3.	Casual riders use the bikes more on the weekends compared to Members. Members use the bike the most from Tuesday to Thursday and decline significantly over the weekend. <br/>
+4.	Very few Casual riders use the bikes throughout the weekdays compared to the weekend<br/>
+5.	Members use the bikes the most during 8 am and 5pm compared to casual riders. <br/>
+6.	Casual riders use the bikes fairly consistently throughout the day, with peak usage around 5pm and then a decline during the evening. <br/>
+
+ ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/d9d2279e-e440-494a-bf04-f3acc1bfca5a)
+ ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/b8eb3629-3b29-4113-a8eb-0eed33796b8e)
+ ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/769d1018-7ec5-4ddb-a41d-bcda58f345c4)
+
+
+Next we will assess the differences in the bike route for casual and member riders to see how this will inform our marketing strategy. The maps below show us the most popular  start and stop stations for casual and member riders. The stations have been filtered to display only the top frequently used so that we can have a clean visualization on the map and avoid confusion.
+![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/d1c756e2-a235-4ef6-8b28-deb49f60bb0c)
+Here we can see that Members are more likely to start their rides closer to areas that are somewhat removed from the CTA metro stations, but are within the central business district close to offices, restaurants, and residential units. Meanwhile, casual members to tend to start their trips primarily from key tourist points such  as Navy Pier, Millenium Park, and Michigan Avenue. <br/>
+![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/5fed202f-5adb-4bfb-bee2-4aa216aa062b)
+Similar trends can be seen in the end station points for each rider group. Members seem to end their rides at the same station they started, while casual riders end their rides at key tourist attractions. <br/>
+
+**Summary Points**
+|Members|Casual Riders|
+|-------|-------------|
+|Prefer classic bikes|Preference is almost evenly split between classic and electric bike|
+|Use bikes within work hours more frequently, specifically 8am to 5pm|Use bikes pretty consistently throughout the day|
+|Use bike more frequently during the weekdays particularly during Spring and Summer|Use bikes more frequently during the weekends particularly during Spring and Summer|
+|Start and end their journeys in commercial and residential areas of the city that are far removed from the train station|Start and end their journeys from key tourist attractions of the city|
+
+
+
+
+
+
 
 
 
