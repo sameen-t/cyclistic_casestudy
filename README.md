@@ -36,7 +36,7 @@ This is internal, primary data from Cyclistic. The data is organized in thirteen
 13.	member_casual<br/>
 <br/>
 Every row corresponds with a unique ride which is identified by ‘ride_id.'
-No biases or credibility issues were identified in this data. This data is publically made available from its primary source. Personal identifiable information (PII) such as the users name and credit card information is not made available in this data in order to protect the privacy and safety of the users. Upon exploration of the data, there is evidence of missing fields in some of the columns. This will be explored further in the processing of our data. <br/>
+No biases or credibility issues were identified in this data. This data is publically made available from its primary source. Personal identifiable information (PII) such as the users name and credit card information is not made available in this data in order to protect the privacy and safety of the users. Upon exploration of the data, there is evidence of missing fields in some of the columns. This will be explored further in the processing of our data. <br/><br/>
 
 
 **Process**<br/>
@@ -54,7 +54,7 @@ I will be using Big Query to process and clean my data. I uploaded the monthly d
  b.	Created column for ride_length_in_minutes using TIMESTAMP_DIFF function<br/>
  c.	Removed ride_lenght_in_minutes values were the ride was greater than 1 day or less than 1 minutes<br/>
  d.	Removed null values from start_station_name, start_station_id, end_station_name, end_station_id, end_lat, and end_lat. <br/>
-We are left with 4 224 062 unique rides for our analysis. <br/>
+We are left with **4 224 062** unique rides for our analysis. <br/>
 
 
  
