@@ -42,7 +42,8 @@ No biases or credibility issues were identified in this data. This data is publi
 I will be using Big Query to process and clean my data. I uploaded the monthly data to BigQuery under one dataset, and then combined the January to December 2022 data into one large table for exploration and analysis. I then took the following steps to explore and understand the data. <br/>
 
 1.	Familiarized myself with the 13 data columns and data types. <br/> 
- 
+ ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/a98a818f-ed80-4e13-a18d-183c467dd159)
+
 2.	Checked for distinct ‘ride_id’ and consistency in ‘ride_id’ characters to ensure each value was unique and without errors. There were  5 667 717 distinct values which is the same as the total number of rows in the 2022 data. All ‘ride_id’ values had 16 characters, indicating no discrepancy or errors in the field. <br/>
 3.	Verified that rideable type has only three distinct values in line with the type of bikes offered by Cyclistic. <br/>
 4.	Checked for null values. The fields ‘start_station_name’ and ‘start_station_id’ have 833 064 null values. The fields ‘end_station_name’ and ‘end_station_id’ have 892 742 null values. The fields ‘end_lat’ and ‘end_lng” have 5858 null values.  These values will have to be removed before we begin our analysis. <br/>
