@@ -67,6 +67,8 @@ The queries generated tables with the relevant data, this data was then visualiz
 The visualizations below show a quick overview of our data and allow us to glean a few key points. Lets start with the number of rider types.<br/>
 ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/ab6ace68-0fcf-4859-9512-1d569df039ec)
 ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/f3052874-41a4-43ad-b76e-a758ecd516cd)
+![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/67ad1cd2-b8c0-49a4-94db-e43077383aa0)
+
 <br/>
 We can see that the majority of riders -59% were members, and approximately 41% were casual riders. Additionally, we can see that the majority of riders prefer a classic bike between both member and casual riders.
 
