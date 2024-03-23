@@ -81,11 +81,11 @@ Next, we will examine ride trends over certain periods of time. This will includ
 4.	Very few Casual riders use the bikes throughout the weekdays compared to the weekend<br/>
 5.	Members use the bikes the most during 8 am and 5pm compared to casual riders. <br/>
 6.	Casual riders use the bikes fairly consistently throughout the day, with peak usage around 5pm and then a decline during the evening. <br/>
-
+7.7.	Member riders ride for an average of 10-15 minutes, while casual riders ride for an average of 20-27 minutes, with the longest durations following during the weekends for both groups. <br/>
  ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/d9d2279e-e440-494a-bf04-f3acc1bfca5a)
  ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/b8eb3629-3b29-4113-a8eb-0eed33796b8e)
  ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/769d1018-7ec5-4ddb-a41d-bcda58f345c4)
-
+![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/9bb5cc08-dc47-4d2f-bad1-c25c4c66bf67)
 
 Next we will assess the differences in the bike route for casual and member riders to see how this will inform our marketing strategy. The maps below show us the most popular  start and stop stations for casual and member riders. The stations have been filtered to display only the top frequently used so that we can have a clean visualization on the map and avoid confusion.<br/><br/>
 ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/d1c756e2-a235-4ef6-8b28-deb49f60bb0c)<br/>
@@ -100,13 +100,16 @@ Similar trends can be seen in the end station points for each rider group. Membe
 |Use bikes within work hours more frequently, specifically 8am to 5pm|Use bikes pretty consistently throughout the day|
 |Use bike more frequently during the weekdays particularly during Spring and Summer|Use bikes more frequently during the weekends particularly during Spring and Summer|
 |Start and end their journeys in commercial and residential areas of the city that are far removed from the train station|Start and end their journeys from key tourist attractions of the city|
+|Use bikes for shorter trips, perhaps to run errands or commute to work|Use bikes for longer duration, likely wanting to “get their moneys worth.”|
 
 **Recommendation**
 1.	Offer discounts for electric bike with annual membership <br/> 
 2.	Offer discounts for bikes when used within typical work commute hours<br/> 
 3.	Time promotions for Spring and Summer months that would encourage casual members to see an annual membership as a more economical choice. <br/> 
 4.	Plan marketing campaigns around key tourist points where casual riders are most likely to start and end their journeys and will be easily accessible to ads. <br/> 
-5.	Highlight the benefits of an annual membership to easily and frequently commute between areas in the city that are not easily accessible via public transport. <br/> 
+5.	Highlight the benefits of an annual membership to easily and frequently commute between areas in the city that are not easily accessible via public transport. <br/>
+6.	6.	Offer a “timeless ten” promotion with annual membership that gives riders the first ten minutes of their rides without charge. <br/>
+
 
 
 
