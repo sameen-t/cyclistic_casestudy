@@ -29,6 +29,14 @@ FROM `case-study-412103.cyclistic_data_2022.cyclistic_cleaned_data_2022`
 GROUP BY member_casual, hour_of_day
 ORDER BY member_casual, total_trips_per_hour DESC
 
+-- avg ride length for each day of the week.
+
+SELECT member_casual,day_of_the_week,
+AVG (ride_length_in_minutes) AS avg_ride_length
+FROM `case-study-412103.cyclistic_data_2022.cyclistic_cleaned_data_2022`
+GROUP BY member_casual, day_of_the_week
+ORDER BY member_casual, avg_ride_length DESC
+
   
 -- avg starting location for member 
 
