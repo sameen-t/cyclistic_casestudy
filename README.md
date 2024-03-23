@@ -50,7 +50,7 @@ I will be using Big Query to process and clean my data. I uploaded the monthly d
 4.	Checked for null values. The fields ‘start_station_name’ and ‘start_station_id’ have 833 064 null values. The fields ‘end_station_name’ and ‘end_station_id’ have 892 742 null values. The fields ‘end_lat’ and ‘end_lng” have 5858 null values.  These values will have to be removed before we begin our analysis. <br/>
 5.	Checked ‘ride_length’ to ensure rides were within a 24 hour period. There are 227604 values where the ride length is less than a minute or greater than a day. These values will also have to be removed before our analysis. <br/>
 6.	Checked that there were only two values for ‘rider_type.’ We are returned wit two values ‘member’ and ‘casual’. This tells us there are no errors in this field as Cyclistic only offers these two type of rider membership. <br/>
-7.	Next was the cleaning process.  I ran the following query to create a new table with cleaned data.<br/> This involved:<br/>
+7.	Next was the cleaning process.  I ran the [following query](https://github.com/sameen-t/cyclistic_casestudy/blob/main/combined_clean_data.sql) to create a new table with cleaned data.<br/> This involved:<br/>
  a.	Created columns for month and day_of_the_week using EXTRACT function<br/>
  b.	Created column for ride_length_in_minutes using TIMESTAMP_DIFF function<br/>
  c.	Removed ride_lenght_in_minutes values were the ride was greater than 1 day or less than 1 minutes<br/>
