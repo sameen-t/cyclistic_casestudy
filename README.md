@@ -64,7 +64,7 @@ For my analysis, I ran queries to determine the following differences between ca
 3.	The hour of day each group is most likely to ride <br/>
 4.	The busiest day of the week for each group <br/>
 5.	The average start and end locations for each group <br/>
-The queries generated tables with the relevant data, this data was then visualized using Tableau Public. <br/>
+The queries generated tables with the relevant data, this data was then visualized using Tableau Public. The dashboards for these visualizations can be accessed [here](https://public.tableau.com/app/profile/sameen.tariq2330/viz/Cyclistic_Data_Dashboard/Dashboard1) <br/>
 The visualizations below show a quick overview of our data and allow us to glean a few key points. Lets start with the number of rider types.<br/>
 ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/ab6ace68-0fcf-4859-9512-1d569df039ec)
 ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/f3052874-41a4-43ad-b76e-a758ecd516cd)
@@ -93,7 +93,9 @@ Here we can see that Members are more likely to start their rides closer to area
 ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/5fed202f-5adb-4bfb-bee2-4aa216aa062b)<br/>
 Similar trends can be seen in the end station points for each rider group. Members seem to end their rides at the same station they started, while casual riders end their rides at key tourist attractions. <br/>
 
-**Summary Points**
+The full maps can be accssed [here](https://public.tableau.com/app/profile/sameen.tariq2330/viz/MostPopularRoutes2022/Dashboard2)
+
+**Share**
 |Members|Casual Riders|
 |-------|-------------|
 |Prefer classic bikes|Preference is almost evenly split between classic and electric bike|
@@ -102,13 +104,13 @@ Similar trends can be seen in the end station points for each rider group. Membe
 |Start and end their journeys in commercial and residential areas of the city that are far removed from the train station|Start and end their journeys from key tourist attractions of the city|
 |Use bikes for shorter trips, perhaps to run errands or commute to work|Use bikes for longer duration, likely wanting to “get their moneys worth.”|
 
-**Recommendation**
+**Act**
 1.	Offer discounts for electric bike with annual membership <br/> 
 2.	Offer discounts for bikes when used within typical work commute hours<br/> 
 3.	Time promotions for Spring and Summer months that would encourage casual members to see an annual membership as a more economical choice. <br/> 
 4.	Plan marketing campaigns around key tourist points where casual riders are most likely to start and end their journeys and will be easily accessible to ads. <br/> 
 5.	Highlight the benefits of an annual membership to easily and frequently commute between areas in the city that are not easily accessible via public transport. <br/>
-6.	6.	Offer a “timeless ten” promotion with annual membership that gives riders the first ten minutes of their rides without charge. <br/>
+6. Offer a Spring-Summer “timeless ten” promotion with annual membership that gives riders the first ten minutes free of charge. <br/>
 
 
 
