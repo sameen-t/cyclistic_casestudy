@@ -81,7 +81,7 @@ Next, we will examine ride trends over certain periods of time. This will includ
 4.	Very few Casual riders use the bikes throughout the weekdays compared to the weekend<br/>
 5.	Members use the bikes the most during 8 am and 5pm compared to casual riders. <br/>
 6.	Casual riders use the bikes fairly consistently throughout the day, with peak usage around 5pm and then a decline during the evening. <br/>
-7.7.	Member riders ride for an average of 10-15 minutes, while casual riders ride for an average of 20-27 minutes, with the longest durations following during the weekends for both groups. <br/>
+7. Member riders ride for an average of 10-15 minutes, while casual riders ride for an average of 20-27 minutes, with the longest durations following during the weekends for both groups. <br/>
  ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/d9d2279e-e440-494a-bf04-f3acc1bfca5a)
  ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/b8eb3629-3b29-4113-a8eb-0eed33796b8e)
  ![image](https://github.com/sameen-t/cyclistic_casestudy/assets/157823956/769d1018-7ec5-4ddb-a41d-bcda58f345c4)
